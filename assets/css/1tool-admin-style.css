@@ -1,0 +1,15 @@
+/* Loader Position adjustment when product sync is started */
+.km_preloader{
+	position: fixed;
+    top: 0;
+    left: 0;    
+    z-index: 9999;
+    background-color: #aaadaf69;
+    width: 100%;
+    height: 100%;
+}
+.km_preloader img{
+	top: 50%;
+    left: 50%;
+    position: relative;
+}
